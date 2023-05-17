@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Akshar Patel</h1>
-<h3 align="center">A passionate Data Analyst from India</h3>
+<h3 align="center">A passionate Python Developer</h3>
+<h3 align="center">Data Science | Machine Learning | Artificial Intelligence</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=akshar106&label=Profile%20views&color=0e75b6&style=flat" alt="akshar106" /> </p>
 
