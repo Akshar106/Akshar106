@@ -7,7 +7,7 @@
 - 💬 Ask me about **Data Science , Machine Learning**
 
 - 📫 How to reach me **patelakshar1107@gmail.com**
-- 
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/akshar-patel-6b03b71ba/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/akshar-patel-6b03b71ba/" height="30" width="40" /></a>
