@@ -1,0 +1,73 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Akshar Patel: building LLM systems that survive real users, and the evals that keep them honest">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111E38"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="560" y1="0" x2="980" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0.9"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#22D3EE" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1000" height="280" rx="16" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1000" height="280" rx="16" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="999" height="279" rx="15.5" stroke="#22D3EE" stroke-opacity="0.18"/>
+
+  <!-- terminal chrome dots -->
+  <circle cx="34" cy="34" r="5" fill="#FF5F56"/>
+  <circle cx="52" cy="34" r="5" fill="#FFBD2E"/>
+  <circle cx="70" cy="34" r="5" fill="#27C93F"/>
+
+  <!-- left: identity -->
+  <text x="40" y="92" font-family="ui-monospace, 'Courier New', monospace" font-size="15" fill="#8B99B0">$ whoami</text>
+  <text x="40" y="138" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#E6EDF3">Akshar Patel</text>
+  <text x="40" y="172" font-family="ui-monospace, 'Courier New', monospace" font-size="16" fill="#B7C3D6">Building LLM systems that survive real users,</text>
+  <text x="40" y="196" font-family="ui-monospace, 'Courier New', monospace" font-size="16" fill="#B7C3D6">and the <tspan fill="#34D399" font-weight="700">evals</tspan> that keep them honest.</text>
+
+  <!-- left: chips -->
+  <g font-family="ui-monospace, 'Courier New', monospace" font-size="12">
+    <rect x="40" y="216" width="128" height="26" rx="13" fill="#22D3EE" fill-opacity="0.10" stroke="#22D3EE" stroke-opacity="0.45"/>
+    <text x="104" y="233" text-anchor="middle" fill="#7DE3F4">multi-agent</text>
+    <rect x="176" y="216" width="64" height="26" rx="13" fill="#22D3EE" fill-opacity="0.10" stroke="#22D3EE" stroke-opacity="0.45"/>
+    <text x="208" y="233" text-anchor="middle" fill="#7DE3F4">RAG</text>
+    <rect x="248" y="216" width="64" height="26" rx="13" fill="#22D3EE" fill-opacity="0.10" stroke="#22D3EE" stroke-opacity="0.45"/>
+    <text x="280" y="233" text-anchor="middle" fill="#7DE3F4">MCP</text>
+    <rect x="320" y="216" width="150" height="26" rx="13" fill="#34D399" fill-opacity="0.10" stroke="#34D399" stroke-opacity="0.5"/>
+    <text x="395" y="233" text-anchor="middle" fill="#7CE8B8">LLM evaluation</text>
+  </g>
+
+  <!-- right: pipeline -->
+  <line x1="560" y1="120" x2="952" y2="120" stroke="url(#beam)" stroke-width="2"/>
+
+  <g font-family="ui-monospace, 'Courier New', monospace" font-size="11">
+    <rect x="560" y="98" width="70" height="44" rx="9" fill="#0E1930" stroke="#2B3B5E"/>
+    <text x="595" y="124" text-anchor="middle" fill="#B7C3D6">route</text>
+
+    <rect x="648" y="98" width="82" height="44" rx="9" fill="#0E1930" stroke="#2B3B5E"/>
+    <text x="689" y="124" text-anchor="middle" fill="#B7C3D6">retrieve</text>
+
+    <rect x="748" y="98" width="76" height="44" rx="9" fill="#0E1930" stroke="#2B3B5E"/>
+    <text x="786" y="124" text-anchor="middle" fill="#B7C3D6">rerank</text>
+
+    <rect x="842" y="98" width="82" height="44" rx="9" fill="#0E1930" stroke="#2B3B5E"/>
+    <text x="883" y="124" text-anchor="middle" fill="#B7C3D6">generate</text>
+  </g>
+
+  <!-- verify node, highlighted -->
+  <rect x="700" y="176" width="150" height="46" rx="10" fill="#0C2921" stroke="#34D399" stroke-width="1.5"/>
+  <text x="762" y="204" text-anchor="middle" font-family="ui-monospace, 'Courier New', monospace" font-size="12" fill="#7CE8B8">verify ✓</text>
+  <path d="M883 142 L883 160 Q883 172 871 172 L862 172" stroke="#34D399" stroke-opacity="0.7" stroke-width="1.5" fill="none"/>
+  <path d="M595 142 L595 199 L698 199" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.5" fill="none" stroke-dasharray="4 4"/>
+
+  <!-- small caption under pipeline -->
+  <text x="560" y="252" font-family="ui-monospace, 'Courier New', monospace" font-size="12" fill="#8B99B0">cited answers only · sources attached</text>
+
+  <!-- bottom-left footer -->
+  <text x="40" y="264" font-family="ui-monospace, 'Courier New', monospace" font-size="11" fill="#66748C">MS Data Science · Indiana University Bloomington · 4.0 GPA</text>
+</svg>
